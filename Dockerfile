@@ -3,3 +3,6 @@ WORKDIR /root/Mellowxd098/
 #stuff same as Ultroid 
 COPY requirements.txt /deploy/
 RUN pip3 install --no-cache-dir -r /deploy/requirements.txt
+
+#starting the bot 
+CMD ["bash", "resources/start.sh"]
