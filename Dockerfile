@@ -5,4 +5,5 @@ COPY requirements.txt /deploy/
 RUN pip3 install --no-cache-dir -r /deploy/requirements.txt
 
 #starting the bot 
-CMD ["bash", "resources/start.sh"]
+CMD ["python3", "Astrorun.py"]
+
